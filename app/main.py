@@ -32,5 +32,6 @@ def handler(request):
     """Handle incoming requests."""
     return app(request)
 
+# This is for local development only
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8000) 
