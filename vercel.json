@@ -2,14 +2,18 @@
     "version": 2,
     "builds": [
         {
-            "src": "run.py",
+            "src": "app/main.py",
             "use": "@vercel/python"
         }
     ],
     "routes": [
         {
+            "src": "/static/(.*)",
+            "dest": "app/static/$1"
+        },
+        {
             "src": "/(.*)",
-            "dest": "run.py"
+            "dest": "app/main.py"
         }
     ]
 } 

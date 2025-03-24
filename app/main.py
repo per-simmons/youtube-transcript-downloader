@@ -1,43 +1,20 @@
-from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware
-from fastapi.staticfiles import StaticFiles
-from fastapi.responses import FileResponse
-from loguru import logger
+from flask import Flask, send_from_directory
 import os
 
-from app.api.routes import router as api_router
+app = Flask(__name__, static_folder='static')
 
-# Configure logger
-logger.add("logs/api.log", rotation="10 MB", level="INFO")
+@app.route('/')
+def serve_static():
+    return send_from_directory('static', 'index.html')
 
-app = FastAPI(
-    title="YouTube Transcript Downloader API",
-    description="API for downloading YouTube video transcripts",
-    version="0.1.0"
-)
+@app.route('/<path:path>')
+def serve_static_files(path):
+    return send_from_directory('static', path)
 
-# Configure CORS
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],  # Modify in production
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
-# Include routers
-app.include_router(api_router, prefix="/api")
-
-# Mount static files directory
-app.mount("/static", StaticFiles(directory="app/static"), name="static")
-
-# Create logs directory if it doesn't exist
-os.makedirs("logs", exist_ok=True)
-
-@app.get("/")
-async def root():
-    """Serve the frontend HTML page"""
-    return FileResponse("app/static/index.html")
+# This is important for Vercel
+def handler(request):
+    """Handle incoming requests."""
+    return app(request)
 
 if __name__ == "__main__":
     import uvicorn
