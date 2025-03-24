@@ -1,0 +1,26 @@
+2025-03-23 09:12:21.500 | INFO     | app.api.routes:download_transcript:37 - Transcript download requested for: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2025-03-23 09:12:21.500 | INFO     | app.services.transcript_service:get_transcript:48 - Extracted video ID: dQw4w9WgXcQ from URL: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2025-03-23 09:12:21.896 | INFO     | app.services.transcript_service:get_transcript:62 - Successfully retrieved transcript for video ID: dQw4w9WgXcQ
+2025-03-23 09:18:23.197 | INFO     | app.api.routes:download_transcript:37 - Transcript download requested for: https://www.youtube.com/watch?v=PWhjPYM_des&t=1486s
+2025-03-23 09:18:23.198 | INFO     | app.services.transcript_service:get_transcript:48 - Extracted video ID: PWhjPYM_des from URL: https://www.youtube.com/watch?v=PWhjPYM_des&t=1486s
+2025-03-23 09:18:24.055 | INFO     | app.services.transcript_service:get_transcript:62 - Successfully retrieved transcript for video ID: PWhjPYM_des
+2025-03-23 09:19:55.294 | INFO     | app.api.routes:download_transcript:37 - Transcript download requested for: https://www.youtube.com/watch?v=PWhjPYM_des&t=1486s
+2025-03-23 09:19:55.294 | INFO     | app.services.transcript_service:get_transcript:48 - Extracted video ID: PWhjPYM_des from URL: https://www.youtube.com/watch?v=PWhjPYM_des&t=1486s
+2025-03-23 09:19:56.049 | INFO     | app.services.transcript_service:get_transcript:62 - Successfully retrieved transcript for video ID: PWhjPYM_des
+2025-03-23 09:20:49.146 | INFO     | app.api.routes:download_transcript:37 - Transcript download requested for: https://www.youtube.com/watch?v=PWhjPYM_des&t=1486s
+2025-03-23 09:20:49.146 | INFO     | app.services.transcript_service:get_transcript:48 - Extracted video ID: PWhjPYM_des from URL: https://www.youtube.com/watch?v=PWhjPYM_des&t=1486s
+2025-03-23 09:20:49.936 | INFO     | app.services.transcript_service:get_transcript:62 - Successfully retrieved transcript for video ID: PWhjPYM_des
+2025-03-23 09:21:12.934 | INFO     | app.api.routes:download_transcript:37 - Transcript download requested for: https://www.youtube.com/watch?v=PWhjPYM_des&t=1486s
+2025-03-23 09:21:12.935 | INFO     | app.services.transcript_service:get_transcript:48 - Extracted video ID: PWhjPYM_des from URL: https://www.youtube.com/watch?v=PWhjPYM_des&t=1486s
+2025-03-23 09:21:13.700 | INFO     | app.services.transcript_service:get_transcript:62 - Successfully retrieved transcript for video ID: PWhjPYM_des
+2025-03-23 09:22:07.035 | INFO     | app.api.routes:download_transcript:37 - Transcript download requested for: https://www.youtube.com/watch?v=PWhjPYM_des&t=1486s
+2025-03-23 09:22:07.035 | INFO     | app.services.transcript_service:get_transcript:48 - Extracted video ID: PWhjPYM_des from URL: https://www.youtube.com/watch?v=PWhjPYM_des&t=1486s
+2025-03-23 09:22:07.801 | INFO     | app.services.transcript_service:get_transcript:62 - Successfully retrieved transcript for video ID: PWhjPYM_des
+2025-03-23 09:58:28.554 | INFO     | app.api.routes:download_transcript:37 - Transcript download requested for: https://www.youtube.com/watch?v=PWhjPYM_des&t=1486s
+2025-03-23 09:58:28.555 | INFO     | app.services.transcript_service:get_transcript:107 - Extracted video ID: PWhjPYM_des from URL: https://www.youtube.com/watch?v=PWhjPYM_des&t=1486s
+2025-03-23 09:58:29.898 | INFO     | app.services.transcript_service:get_video_metadata:79 - Retrieved metadata for video PWhjPYM_des: title='Inside the Minds of Top B2B CMOs: What's Working and How CMOs are Evolving in B2B Marketing', channel='YouTube'
+2025-03-23 09:58:29.898 | INFO     | app.services.transcript_service:get_transcript:124 - Successfully retrieved transcript for video ID: PWhjPYM_des
+2025-03-23 10:07:18.647 | INFO     | app.api.routes:download_transcript:37 - Transcript download requested for: https://www.youtube.com/watch?v=i9YbJUDAwcg
+2025-03-23 10:07:18.648 | INFO     | app.services.transcript_service:get_transcript:132 - Extracted video ID: i9YbJUDAwcg from URL: https://www.youtube.com/watch?v=i9YbJUDAwcg
+2025-03-23 10:07:19.972 | INFO     | app.services.transcript_service:get_video_metadata:104 - Retrieved metadata for video i9YbJUDAwcg: title='B2B Content Strategy: AI, SEO, and What's Working on LinkedIn and X', channel='Exit Five'
+2025-03-23 10:07:19.974 | INFO     | app.services.transcript_service:get_transcript:149 - Successfully retrieved transcript for video ID: i9YbJUDAwcg
