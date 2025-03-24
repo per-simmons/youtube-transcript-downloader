@@ -1,8 +1,6 @@
-fastapi>=0.100.0,<0.109.0
-uvicorn>=0.22.0,<0.27.0
-youtube-transcript-api==0.6.1
-pydantic>=1.10.8,<2.0.0
-python-dotenv==1.0.0
-loguru==0.7.2
-beautifulsoup4==4.12.2
-requests==2.32.3 
+flask==3.0.2
+youtube-transcript-api==0.6.2
+requests==2.31.0
+beautifulsoup4==4.12.3
+python-dotenv==1.0.1
+gunicorn==21.2.0 
