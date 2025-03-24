@@ -1,8 +1,13 @@
 import re
+import logging
 from youtube_transcript_api import YouTubeTranscriptApi, TranscriptsDisabled, NoTranscriptFound
-from loguru import logger
+from youtube_transcript_api.formatters import TextFormatter
 import requests
 from bs4 import BeautifulSoup
+
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 def extract_video_id(url: str) -> str:
     """
@@ -19,9 +24,9 @@ def extract_video_id(url: str) -> str:
     """
     # Try to extract video ID using regex
     patterns = [
-        r'(?:v=|\/)([0-9A-Za-z_-]{11}).*',  # youtube.com/watch?v=VIDEO_ID
-        r'(?:youtu\.be\/)([0-9A-Za-z_-]{11})',  # youtu.be/VIDEO_ID
-        r'(?:embed\/)([0-9A-Za-z_-]{11})',  # youtube.com/embed/VIDEO_ID
+        r'(?:v=|/v/|youtu\.be/|/embed/)([^&?/]+)',
+        r'youtube\.com/watch\?v=([^&?/]+)',
+        r'youtu\.be/([^&?/]+)'
     ]
     
     for pattern in patterns:
@@ -29,7 +34,7 @@ def extract_video_id(url: str) -> str:
         if match:
             return match.group(1)
     
-    raise ValueError("Could not extract YouTube video ID from the provided URL")
+    raise ValueError("Invalid YouTube URL format")
 
 def get_video_metadata(video_id: str) -> dict:
     """
@@ -50,68 +55,34 @@ def get_video_metadata(video_id: str) -> dict:
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
         }
         response = requests.get(url, headers=headers)
-        
-        if response.status_code != 200:
-            logger.warning(f"Failed to get YouTube page for video {video_id}: {response.status_code}")
-            return {"title": "", "channel": "", "url": url}
+        response.raise_for_status()
         
         soup = BeautifulSoup(response.text, 'html.parser')
         
-        # Initialize variables
-        title = ""
-        channel = ""
+        # Try to get title from meta tags
+        title = "Unknown Title"
+        title_meta = soup.find("meta", property="og:title")
+        if title_meta and title_meta.get("content"):
+            title = title_meta["content"]
         
-        # Try to extract title and channel with different methods
-        # Method 1: Meta tags
-        meta_title = soup.find("meta", property="og:title")
-        if meta_title:
-            title = meta_title.get("content", "")
+        # Try to get channel name from meta tags
+        channel = "Unknown Channel"
+        channel_meta = soup.find("link", itemprop="name")
+        if channel_meta and channel_meta.get("content"):
+            channel = channel_meta["content"]
         
-        # Method 2: Looking for specific channel elements in HTML
-        # Try different patterns YouTube might use for channel name
-        
-        # Look for JSON data in script tags that might contain channel info
-        scripts = soup.find_all('script')
-        for script in scripts:
-            script_text = script.string
-            if script_text and '"ownerChannelName":"' in script_text:
-                channel_match = re.search(r'"ownerChannelName":"([^"]+)"', script_text)
-                if channel_match:
-                    channel = channel_match.group(1)
-                    break
-        
-        # If still no channel, look for other common elements
-        if not channel:
-            # Try to find the channel link and get its text
-            channel_link = soup.select_one('a.yt-simple-endpoint.style-scope.yt-formatted-string')
-            if channel_link:
-                channel = channel_link.text.strip()
-        
-        # Fallback to any pattern that might indicate channel
-        if not channel:
-            owner_text = re.search(r'"ownerChannelName":"([^"]+)"', response.text)
-            if owner_text:
-                channel = owner_text.group(1)
-        
-        # Final fallback - default to YouTube
-        if not channel:
-            channel = "Unknown Channel"
-            
-        # Clean up title
-        if " - YouTube" in title:
-            title = title.replace(" - YouTube", "")
-            
         logger.info(f"Retrieved metadata for video {video_id}: title='{title}', channel='{channel}'")
         
         return {
             "title": title,
-            "channel": channel,
-            "url": url
+            "channel": channel
         }
-        
     except Exception as e:
-        logger.error(f"Error fetching video metadata: {e}")
-        return {"title": "", "channel": "Unknown Channel", "url": f"https://www.youtube.com/watch?v={video_id}"}
+        logger.error(f"Error fetching video metadata: {str(e)}")
+        return {
+            "title": "Unknown Title",
+            "channel": "Unknown Channel"
+        }
 
 def get_transcript(url: str) -> dict:
     """
@@ -129,26 +100,28 @@ def get_transcript(url: str) -> dict:
     try:
         # Extract video ID
         video_id = extract_video_id(url)
-        logger.info(f"Extracted video ID: {video_id} from URL: {url}")
-        
-        # Fetch transcript
-        transcript = YouTubeTranscriptApi.get_transcript(video_id)
+        logger.info(f"Extracting transcript for video ID: {video_id}")
         
         # Get video metadata
         metadata = get_video_metadata(video_id)
         
-        # Process transcript into a more usable format if needed
-        processed_transcript = []
+        # Get transcript
+        transcript = YouTubeTranscriptApi.get_transcript(video_id)
+        
+        # Format transcript with timestamps
+        formatted_lines = []
         for entry in transcript:
-            processed_transcript.append({
-                "text": entry.get("text", ""),
-                "start": entry.get("start", 0),
-                "duration": entry.get("duration", 0)
-            })
+            timestamp = int(entry['start'])
+            minutes = timestamp // 60
+            seconds = timestamp % 60
+            text = entry['text'].replace('\n', ' ')
+            formatted_lines.append(f"[{minutes:02d}:{seconds:02d}] {text}")
+        
+        formatted_transcript = '\n'.join(formatted_lines)
         
         logger.info(f"Successfully retrieved transcript for video ID: {video_id}")
         return {
-            "transcript": processed_transcript,
+            "transcript": formatted_transcript,
             "metadata": metadata
         }
         
@@ -157,5 +130,5 @@ def get_transcript(url: str) -> dict:
         raise ValueError(f"No transcript available for this video: {str(e)}")
     
     except Exception as e:
-        logger.error(f"Failed to get transcript: {e}")
-        raise ValueError(f"Failed to retrieve transcript: {str(e)}") 
+        logger.error(f"Error processing transcript: {str(e)}")
+        raise ValueError(f"Failed to process transcript: {str(e)}") 
