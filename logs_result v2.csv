@@ -1,0 +1,254 @@
+"TimeUTC","timestampInMs","requestPath","requestMethod","requestQueryString","responseStatusCode","requestId","requestUserAgent","level","environment","branch","vercelCache","type","function","host","deploymentDomain","deploymentId","durationMs","region","maxMemoryUsed","memorySize","message","projectId"
+"2025-03-24 20:32:23",1742848343059,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/favicon.png","GET","",-1,"vpgcr-1742848341327-73273001c86f","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",-1,"iad1",-1,-1,"Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:21",1742848341363,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/favicon.png","GET","",500,"vpgcr-1742848341327-73273001c86f","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",1681,"iad1",76,1024,"","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:19",1742848339200,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/favicon.png","GET","",-1,"m4lkz-1742848337411-e527e20e4c97","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",-1,"iad1",-1,-1,"Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:17",1742848337446,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/favicon.png","GET","",500,"m4lkz-1742848337411-e527e20e4c97","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",1736,"iad1",76,1024,"","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:16",1742848336322,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/favicon.png","GET","",-1,"t8qnr-1742848334560-b3ffe773ee31","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",-1,"iad1",-1,-1,"Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:15",1742848335798,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/favicon.ico","GET","",-1,"ztk4t-1742848333743-5474d86cfc93","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",-1,"iad1",-1,-1,"Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:15",1742848335346,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/favicon.ico","GET","",-1,"h2vl9-1742848333480-863f507f8d76","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",-1,"iad1",-1,-1,"Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:15",1742848335346,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/favicon.ico","GET","",-1,"4bml7-1742848333552-eb1661f08301","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",-1,"iad1",-1,-1,"Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:15",1742848335087,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/favicon.ico","GET","",-1,"bkmhz-1742848333354-f9b6a6678177","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",-1,"iad1",-1,-1,"Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:14",1742848334596,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/favicon.png","GET","",500,"t8qnr-1742848334560-b3ffe773ee31","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",1698,"iad1",76,1024,"","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:14",1742848334520,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/favicon.ico","GET","",-1,"tmlqj-1742848332767-5c67b149f8c4","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",-1,"iad1",-1,-1,"Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:13",1742848333963,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/favicon.ico","GET","",500,"ztk4t-1742848333743-5474d86cfc93","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",1814,"iad1",76,1024,"","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:13",1742848333627,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",-1,"nrhkv-1742848331789-5b2277d86648","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",-1,"iad1",-1,-1,"Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:13",1742848333601,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/favicon.ico","GET","",500,"4bml7-1742848333552-eb1661f08301","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",1730,"iad1",76,1024,"","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:13",1742848333517,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/favicon.ico","GET","",500,"h2vl9-1742848333480-863f507f8d76","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",1813,"iad1",76,1024,"","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:13",1742848333449,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",-1,"q77z9-1742848331487-0a254c3e2533","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",-1,"iad1",-1,-1,"Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:13",1742848333394,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",-1,"nh98l-1742848331663-0e7401288559","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",-1,"iad1",-1,-1,"Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:13",1742848333390,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/favicon.ico","GET","",500,"bkmhz-1742848333354-f9b6a6678177","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",1681,"iad1",76,1024,"","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:13",1742848333288,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",-1,"js2zf-1742848331509-a2b5521f11a6","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",-1,"iad1",-1,-1,"Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:12",1742848332803,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/favicon.ico","GET","",500,"tmlqj-1742848332767-5c67b149f8c4","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",1700,"iad1",76,1024,"","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:11",1742848331826,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",500,"nrhkv-1742848331789-5b2277d86648","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",1784,"iad1",76,1024,"","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:11",1742848331699,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",500,"nh98l-1742848331663-0e7401288559","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",1680,"iad1",76,1024,"","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:11",1742848331666,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",-1,"fn2nt-1742848329953-af409f2bf4eb","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",-1,"iad1",-1,-1,"Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:11",1742848331609,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",-1,"hzdpq-1742848329754-4e4de0df0077","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",-1,"iad1",-1,-1,"Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:11",1742848331544,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",500,"js2zf-1742848331509-a2b5521f11a6","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",1728,"iad1",76,1024,"","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:11",1742848331540,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",-1,"v4lwg-1742848329725-ad0f9db9e3de","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",-1,"iad1",-1,-1,"Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:11",1742848331522,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",500,"q77z9-1742848331487-0a254c3e2533","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",1908,"iad1",76,1024,"","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:11",1742848331389,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",-1,"zk27h-1742848329481-db10e1056378","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",-1,"iad1",-1,-1,"Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:11",1742848331318,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",-1,"fh2ng-1742848329534-252ae72b1e10","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",-1,"iad1",-1,-1,"Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:10",1742848330682,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/favicon.ico","GET","",-1,"4hp8k-1742848328553-191fc6b03179","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",-1,"iad1",-1,-1,"Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:09",1742848329990,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",500,"fn2nt-1742848329953-af409f2bf4eb","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",1663,"iad1",76,1024,"","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:09",1742848329790,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",500,"hzdpq-1742848329754-4e4de0df0077","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",1804,"iad1",76,1024,"","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:09",1742848329760,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",500,"v4lwg-1742848329725-ad0f9db9e3de","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",1756,"iad1",76,1024,"","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:09",1742848329569,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",500,"fh2ng-1742848329534-252ae72b1e10","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",1732,"iad1",76,1024,"","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:09",1742848329519,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",500,"zk27h-1742848329481-db10e1056378","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",1853,"iad1",76,1024,"","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:08",1742848328597,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/favicon.ico","GET","",500,"4hp8k-1742848328553-191fc6b03179","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",2069,"iad1",76,1024,"","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:07",1742848327844,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",-1,"r8tz8-1742848325764-2a69041e5eea","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",-1,"iad1",-1,-1,"Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:07",1742848327666,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",-1,"nsnpd-1742848325785-71f0b1e9cc2d","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",-1,"iad1",-1,-1,"Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:07",1742848327640,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",-1,"r9m45-1742848325866-0344ac2180f7","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",-1,"iad1",-1,-1,"Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:07",1742848327474,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",-1,"cqr9g-1742848325451-9d00452a5e7e","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",-1,"iad1",-1,-1,"Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:07",1742848327425,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",-1,"kc48z-1742848325675-833fddad75b6","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",-1,"iad1",-1,-1,"Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:07",1742848327425,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/favicon.ico","GET","",-1,"547tz-1742848325468-6e384eaf28aa","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",-1,"iad1",-1,-1,"Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:05",1742848325903,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",500,"r9m45-1742848325866-0344ac2180f7","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",1720,"iad1",76,1024,"","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:05",1742848325820,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",500,"nsnpd-1742848325785-71f0b1e9cc2d","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",1832,"iad1",76,1024,"","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:05",1742848325799,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",500,"r8tz8-1742848325764-2a69041e5eea","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",2028,"iad1",76,1024,"","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:05",1742848325711,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",500,"kc48z-1742848325675-833fddad75b6","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",1698,"iad1",76,1024,"","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:05",1742848325647,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",-1,"hn7dw-1742848323905-ba8be092eb89","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",-1,"iad1",-1,-1,"Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:05",1742848325525,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/favicon.ico","GET","",500,"547tz-1742848325468-6e384eaf28aa","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",1879,"iad1",76,1024,"","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:05",1742848325493,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",500,"cqr9g-1742848325451-9d00452a5e7e","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",1960,"iad1",76,1024,"","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:04",1742848324780,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",-1,"fh2ng-1742848321435-1bd03c30fd27","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",-1,"iad1",-1,-1,"Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:04",1742848324696,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",-1,"5hjr6-1742848321309-e8fa8e179c78","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",-1,"iad1",-1,-1,"Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:04",1742848324658,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",-1,"xwc9t-1742848321288-83056a650fd6","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",-1,"iad1",-1,-1,"Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:04",1742848324606,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",-1,"hpbn9-1742848321056-af56aa3be828","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",-1,"iad1",-1,-1,"Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:04",1742848324466,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",-1,"wb9h7-1742848321507-adf725a5801c","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",-1,"iad1",-1,-1,"Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:04",1742848324400,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",-1,"d9crb-1742848321142-85d646587c07","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",-1,"iad1",-1,-1,"Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 213, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:03",1742848323941,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",500,"hn7dw-1742848323905-ba8be092eb89","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",1692,"iad1",76,1024,"","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:01",1742848321563,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",500,"fh2ng-1742848321435-1bd03c30fd27","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",1910,"iad1",76,1024,"","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:01",1742848321544,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",500,"wb9h7-1742848321507-adf725a5801c","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",1701,"iad1",76,1024,"","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:01",1742848321448,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",500,"5hjr6-1742848321309-e8fa8e179c78","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",1879,"iad1",76,1024,"","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:01",1742848321447,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",500,"xwc9t-1742848321288-83056a650fd6","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",1994,"iad1",76,1024,"","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:01",1742848321402,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",500,"hpbn9-1742848321056-af56aa3be828","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",1811,"iad1",76,1024,"","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"
+"2025-03-24 20:32:01",1742848321367,"youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app/","GET","",500,"d9crb-1742848321142-85d646587c07","vercel-screenshot/1.0","error","production","main","MISS","lambda","/run.py","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","youtube-transcript-downloader-htsbchfrs-pats-projects-b663c761.vercel.app","dpl_ExtzHqwVFqgXi3xGDK1BN8w4CEne",1774,"iad1",76,1024,"","prj_HkQlmcmZOETwnxgwGHb4JpfZHXc0"

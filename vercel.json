@@ -8,6 +8,14 @@
     ],
     "routes": [
         {
+            "src": "/api/(.*)",
+            "dest": "run.py"
+        },
+        {
+            "src": "/static/(.*)",
+            "dest": "app/static/$1"
+        },
+        {
             "src": "/(.*)",
             "dest": "run.py"
         }

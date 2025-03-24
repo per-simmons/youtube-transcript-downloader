@@ -13,11 +13,6 @@ def serve_static():
 def serve_static_files(path):
     return send_from_directory('static', path)
 
-# This is important for Vercel
-def handler(request):
-    """Handle incoming requests."""
-    return app(request)
-
 # This is for local development only
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8000) 
