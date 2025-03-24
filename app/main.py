@@ -1,8 +1,9 @@
 from flask import Flask, send_from_directory, request, jsonify
-from app.services.transcript_service import get_transcript
+from app.api.routes import api
 import os
 
 app = Flask(__name__, static_folder='static')
+app.register_blueprint(api, url_prefix='/api')
 
 @app.route('/')
 def serve_static():
@@ -11,21 +12,6 @@ def serve_static():
 @app.route('/<path:path>')
 def serve_static_files(path):
     return send_from_directory('static', path)
-
-@app.route('/api/transcript', methods=['POST'])
-def download_transcript():
-    try:
-        data = request.get_json()
-        url = data.get('url')
-        
-        if not url:
-            return jsonify({"error": "URL is required"}), 400
-            
-        result = get_transcript(url)
-        return jsonify(result)
-        
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
 
 # This is important for Vercel
 def handler(request):
